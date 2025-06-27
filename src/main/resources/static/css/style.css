@@ -1,0 +1,72 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .game-wrapper {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    /* ОБЩИЕ стили для всех кнопок */
+    button.card-button {
+        padding: 0;
+        border: none;
+        background: none;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        outline: none;       /* Убирает рамку при фокусе */
+        box-shadow: none;    /* Убирает любые тени */
+    }
+button.card-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+    button:hover {
+        background-color: #f0f0f0;
+        transform: scale(1.05);
+    }
+
+    /* СПЕЦИАЛЬНО для карточек с картинками */
+    button.card-button {
+        padding: 0;
+        border: none;
+        background: none;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        transition: none; /* убираем анимацию наведения для картинок */
+    }
+
+    img.card-img {
+        display: block;
+        max-width: 100px; /* ограничение размера картинки */
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
