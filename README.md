@@ -33,6 +33,7 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/pexeso
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
+## 📌 SCREENSHOTS
 ![photo_2025-06-27_12-34-50](https://github.com/user-attachments/assets/017484af-25f9-4416-8a35-ce22008d6721)
 ![photo_2025-06-27_12-34-57](https://github.com/user-attachments/assets/0755e732-5852-42bc-a560-e5c87cfd33b7)
 ![photo_2025-06-27_12-35-15](https://github.com/user-attachments/assets/ee5eaec3-4f45-48fc-a35c-ff048e22fdae)
